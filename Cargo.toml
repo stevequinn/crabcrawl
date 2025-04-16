@@ -1,0 +1,12 @@
+[package]
+name = "crabcrawl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.40", features = ["full"] }
+crossterm = "0.27"
+fantoccini = "0.19"
+tui = "0.19"
+url = "2.5"
+scraper = "0.20"
